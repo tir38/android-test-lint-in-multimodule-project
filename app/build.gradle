@@ -21,6 +21,12 @@ android {
         }
     }
 
+    lintOptions {
+        warningsAsErrors true
+        checkDependencies true
+        checkGeneratedSources = true
+//        lintConfig file("lint.xml")
+    }
 }
 
 dependencies {
