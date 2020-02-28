@@ -25,7 +25,7 @@ android {
         warningsAsErrors true
         checkDependencies true
         checkGeneratedSources = true
-//        lintConfig file("lint.xml")
+        lintConfig file("lint.xml")
     }
 }
 
